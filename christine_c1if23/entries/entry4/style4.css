@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+    margin: 0;
+  }
+
+
+.box_1 {
+    background-color: black;
+    width: 25vw;
+    height: 25vw;
+  
+    transition: opacity 3s;
+}
+
+
+.box_2 {
+    background-color: black;
+    width: 25vw;
+    height: 25vw;
+    transition: opacity 3s;
+}
+
+
+.box_3 {
+    background-color: black;
+    width: 25vw;
+    height: 50vw;
+    transition: opacity 3s;
+    
+}
+
+.box_4 {
+    background-color: black;
+    width: 50vw;
+    height: 25vw;
+    transition: opacity 3s;
+    
+}
+.box_5 {
+    background-color: black;
+    width: 50vw;
+    height: 50vw;
+    transition: opacity 3s;
+    
+}
+
+body {
+
+        /* The image used */
+        background-image: url("imgs/background_pink.png");
+      
+        /* Full height */
+        min-height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: "field-gothic-compact", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px
+
+}
+h2{
+    text-align: center;
+    color:rgb(68, 108, 160);
+    font-family: "salbabida-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+h3{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: "field-gothic-compact", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 400%
+}
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw 1vw;
+    margin-top: 10px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.box_1:hover {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-out;    
+}
+
+.box_2:hover {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+.box_3:hover {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}.box_4:hover {
+    opacity: 0;
+    transition: opacity 2.0s ease-in-out;
+}
+.box_5:hover {
+    opacity: 0;
+    transition: opacity 3.0s ease-in-out;
+}

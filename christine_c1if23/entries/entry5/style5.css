@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+h1 {
+  font-family: 'Roboto';
+  font-size: 100px;
+  color: #f9c8ff;
+  text-align: left;
+  padding-left: 70px;
+
+}
+h2 {
+  font-family: 'Roboto';
+  font-size: 100px;
+  color: #f9c8ff;
+  text-align: right;
+  padding-right: 70px;
+}
+h3 {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #e5e5e5;
+  text-align: right;
+  padding-right: 70px;
+  line-height: 1.8
+}
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#000ea3;
+}
+.second div {
+  background-color:#3267e3;
+}
+.third div {
+  background-color:#568cf8;
+}
+.fourth div {
+    background-color:#b3cf4e;
+  }
+.fifth div {
+    background-color:#e852d1;
+  }
+.sixth div {
+    background-color:#ffa33b;
+  }
+  
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}

@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(226, 118, 46);
+}
+h1{
+    color: #fff478;
+    font-family: "search", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 140%;
+    text-align: left;
+}
+h2{
+    color: #fff478;
+    font-family: "search", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 140%;
+    text-align: right;
+}
+h3{
+    color: #55e1d6;
+    font-family: "search", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    line-height: 140%;
+    text-align: center;
+}
+p{
+    font-family: "adobe-handwriting-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffdebb;
+    line-height: 140%;
+    font-size: 50px;
+      }
+    
+h5{
+    color: #55e1d6;
+    font-family: "search", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    line-height: 140%;
+    text-align: center;
+}
+h4{
+    font-family: "adobe-handwriting-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffbd76;
+    line-height: 140%;
+    font-size: 30px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: auto;
+    height: 1000px;
+  }
+  .flex-container > div > img{
+    width: auto;
+    height:100px
+  }
+#sky {
+    display: flex;
+    width: auto;
+    height: 700px;
+    justify-content: center;
+  }
+  h6{
+    font-family: "adobe-handwriting-frank", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #55e1d6;
+    line-height: 140%;
+    font-size: 50px;
+    text-align: center;
+  }
+  input{
+    font: optional;
+  }

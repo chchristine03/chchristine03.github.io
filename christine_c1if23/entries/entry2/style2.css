@@ -1,0 +1,73 @@
+body {
+    background-color: #f990ff;
+    font-family:Copperplate, Papyrus, fantasy;
+    
+}
+
+h2{
+    text-align: center;
+    color: #5e42fd;
+    font-size: 120px;
+    font-style: italic;
+    margin-bottom: 0px;
+
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    20% {
+      font-size: 300%;
+      margin-left: 0%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 90%;
+    }
+    
+}
+img{
+    padding: 20px; 
+  }
+
+p{
+    color: #ad068c;
+    font-size: 24px;
+    line-height: 140%;
+      }
+    
+h3{
+    color: #ff2a78;
+    font-size: 80px;
+    line-height: 140%;
+        }
+
+h4{
+    color: #070084;
+    font-size: 24px;
+    line-height: 200%;
+    
+}
+            
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
