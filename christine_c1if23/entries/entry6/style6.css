@@ -50,3 +50,9 @@ body {
 font-family: 'Roboto';
 color: rgb(255, 170, 52);
 }
+body {
+    background-image: url("imgs/receipt.jpg");
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+}
