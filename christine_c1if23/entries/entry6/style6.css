@@ -1,0 +1,52 @@
+.robot_font_reg {
+    font-family: 'superhelio _regular', sans-serif;
+}
+.header {
+    font-size: 100px;
+    text-align: center;
+}
+.sub_header{
+    font-size: 30px;
+}
+.items{
+    font-size: 100px;
+    text-align: left;
+}
+.left{
+    padding-left: 20px;
+}
+
+.grid_1 {
+    display: inline-block;
+    width: 200px; 
+    padding-left: 20px;
+}
+.fixed{
+    position: sticky;
+    top: 20%;
+    padding-bottom: 400px
+    
+}
+body {
+    padding-bottom: 100px
+  }
+
+.boba {
+    position: fixed
+}
+
+@media all and (max-width: 800px) {
+    .items{
+      font-size: 40px;
+      color: rgb(255, 100, 126);
+    }
+    img{
+    height: 1000px;
+    padding-left: 23px;
+    width:526px;
+    }
+}
+.roboto_font {
+font-family: 'Roboto';
+color: rgb(255, 170, 52);
+}
