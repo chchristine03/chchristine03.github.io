@@ -1,0 +1,58 @@
+
+.flex-container{
+    display:flex;
+    justify-content:space-between;
+    
+}
+img{
+    width:400px;
+}
+body{ 
+    color: rgb(137, 198, 255);
+    font-family: "amandine", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 58px;
+    font-weight: 900;
+    background-image: url(imgs/stars.jpg);
+    text-align: center
+   
+}
+
+#train{
+    margin-left: 300px
+}
+
+#rain {
+    margin-left:100px
+}
+#birds {
+    margin-left:500px;
+    width:800px;
+}
+
+#walk{
+    width:100vw;
+}
+
+@media all and (max-width: 800px) {
+    body{
+      font-size: 40px;
+      color: rgb(239, 146, 255)
+    }
+    img{
+    width:200px;
+    }
+    #birds{
+        width: 300px;
+        margin-left:100px
+    }
+}
+.box1{
+    transition: opacity 3s;
+}
+.box1:hover {
+    opacity: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;   
+}
