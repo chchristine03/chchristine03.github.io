@@ -1,0 +1,102 @@
+
+body {
+    background-color:  rgb(218, 231, 104);
+  }
+  
+
+  section {
+    display:  flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:  center;
+    height:  10vh;
+    position: sticky;
+    top: 0;
+    padding-left: 300px;
+
+  }
+
+  
+  .generalButton {
+    padding: 20px 20px;
+    border-radius: 30px;
+    background-color:  white;
+    color:  black;
+  font-family: 'tuppence', serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
+    text-align:  center;
+    transition:  all 0.5s;
+  }
+  
+  .generalButton:hover {
+    background-color: rgba(81, 217, 255, 0.594);
+    cursor:  pointer;
+  }
+  
+  .generalButtonOn {
+    background-color:  black;
+    color:  white;
+  }
+  
+  .light {
+    background-color: rgb(198, 28, 161)
+  }
+
+
+  .text{
+    color:  rgb(218, 231, 104);
+    font-size: 20px;
+    text-align:  center;
+    font-family: "roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: absolute;
+    top: 600px;
+    left:80px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.title{
+  font-family: "roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+    font-size: 200px;
+    color: rgb(164, 29, 182);
+    text-align: left;
+    padding-left: 70px;
+  
+  }
+
+.extend{
+  margin-bottom:200px;
+  font-family: "roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+      font-size: 200px;
+      color: rgb(218, 231, 104);
+      text-align: right;
+      padding-right: 70px;
+      
+}
+
+
+@media all and (max-width: 800px) {
+  .title {
+    font-size: 120px;
+    color:rgb(67, 170, 141);
+    top: 20px;
+    
+  }
+  .text{
+    font-size:15px;
+    position: absolute;
+    top: 500px;
+    left:80px;
+  }
+  .extend{
+    font-size: 120px;
+    margin-bottom:500px;
+  }
+}
