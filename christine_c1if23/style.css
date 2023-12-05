@@ -45,7 +45,7 @@ section {
     border-radius: 30px;
     background-color:  white;
     color:  black;
-  font-family: 'tuppence', serif;
+  font-family: 'roboto';
   font-weight: 400;
   font-style: normal;
     font-size: 20px;
@@ -62,5 +62,66 @@ section {
     background-color:  black;
     color:  white;
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+.one{
+    font-size: 30px;
+    font-family: "roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+  a:link {
+    color: pink;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(122, 242, 122);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 0, 225);
+  }
+  .button{
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(36, 128, 164);
+  }
+
+  #entry1{
+    margin-left:5vw
+  }
+
+  #entry2{
+    margin-left:70vw
+  }
+  #entry3{
+    margin-left:50vw
+  }
+  #entry4{
+    margin-left:30vw
+  }#entry5{
+    margin-left:10vw
+  }#entry6{
+    margin-left:75vw
+  }#entry7{
+    margin-left:50vw
+  }
+  #entry8{
+    margin-left:30vw
+  }#entry9{
+    margin-left:70vw
+  }#entry10{
+    margin-left:15vw
+  }#entry11{
+    margin-left:50vw
+  }
