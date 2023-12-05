@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
 body {
     margin:0;
     height: 100vh;
@@ -21,12 +23,14 @@ body {
   }
 
   h1{
+    font-family: 'Roboto';
     text-align: center;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.725)
 
   }
   h2{
+    font-family: 'Roboto';
     text-align: center;
     font-size: 200px;
     color: white
@@ -38,3 +42,10 @@ body {
    margin-left:50%;
    margin-right:50%
   }
+
+  @media all and (max-width: 800px) {
+    body{
+      background-image: radial-gradient(rgb(117, 172, 244) 20px, transparent 0px), radial-gradient(#db058d 7px, transparent 50px), radial-gradient(hsl(200, 100%, 75%) 7px, transparent 70px), radial-gradient(#f2f06f 7px, transparent 70px);
+    
+    }
+}

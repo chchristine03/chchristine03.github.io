@@ -71,3 +71,23 @@ h4{
   clear: both;
   display: table;
 }
+
+
+@media all and (max-width: 800px) {
+  h2{
+    font-size: 60px;
+    color: rgb(49, 66, 255);
+  }
+  h1{
+    font-size: 20px;
+  }
+  p{
+    font-size: 15px;
+  }
+  h3{
+    font-size:60px;
+  }
+  h4{
+    font-size:20px;
+  }
+}

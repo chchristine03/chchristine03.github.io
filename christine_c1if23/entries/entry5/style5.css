@@ -87,3 +87,21 @@ p {
   90% {margin-top: 0;}
   100% {margin-top: 0;}
 }
+
+@media all and (max-width: 800px) {
+  h1{
+    padding-left:40px;
+    font-size:90px;
+   }
+  .container{
+    height: 90vh;
+    font-size: 1.5rem;   
+  }
+  .animation {
+    height:40px;
+  }
+  h3{
+    font-size: 25px;
+    padding-right:40px
+  }
+}

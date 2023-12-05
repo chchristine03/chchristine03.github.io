@@ -90,3 +90,27 @@ h9{
     width: 30%;
     float: right;
   }
+
+
+@media all and (max-width: 800px) {
+  h3{
+    margin: -200px 150px;
+}
+  h4{
+    margin: -200px 20px;
+  }
+  h6{
+    margin: -300px 0px 600px 100px;
+}
+  h5{
+    
+  margin: -200px 100px;
+  }
+  .blueTitles{
+    color:rgb(113, 163, 242)
+  }
+  body {
+    background-color: #285888;
+  
+}
+}

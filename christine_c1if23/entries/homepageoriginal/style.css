@@ -1,0 +1,22 @@
+.title{
+    font-family: "sway-variable",sans-serif;
+    font-variation-settings: 'CNST' 50, 'wght' 900;
+    font-size: 200px;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+.text{
+    font-family: "sway-variable",sans-serif;
+    font-variation-settings: 'CNST' 100, 'wght' 400;
+    font-size: 50px;
+    line-height: 1.8;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+.sticky{
+    position: sticky;
+    top: 0px;
+    background-color: rgb(232, 148, 255);
+    padding: 50px;
+} 

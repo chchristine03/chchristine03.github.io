@@ -114,3 +114,11 @@ h3{
     opacity: 0;
     transition: opacity 3.0s ease-in-out;
 }
+@media all and (max-width: 800px) {
+ h2{
+    color:rgb(206, 95, 145)
+ }
+ .box_5{
+    background-color:rgb(206, 95, 145)
+ }
+  }

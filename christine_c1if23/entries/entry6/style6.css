@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
 .robot_font_reg {
     font-family: 'superhelio _regular', sans-serif;
 }
@@ -34,25 +36,25 @@ body {
 .boba {
     position: fixed
 }
+.roboto_font {
+    font-family: 'Roboto';
+    color: rgb(255, 170, 52);
+    }
+    body {
+        background-image: url("imgs/receipt.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    }
 
 @media all and (max-width: 800px) {
     .items{
       font-size: 40px;
-      color: rgb(255, 100, 126);
+      color: rgb(255, 170, 52);
     }
     img{
     height: 1000px;
     padding-left: 23px;
     width:526px;
     }
-}
-.roboto_font {
-font-family: 'Roboto';
-color: rgb(255, 170, 52);
-}
-body {
-    background-image: url("imgs/receipt.jpg");
-background-position: center;
-background-repeat: repeat;
-background-size: cover;
 }

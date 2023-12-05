@@ -83,3 +83,48 @@ h4{
   input{
     font: optional;
   }
+
+  @media all and (max-width: 800px) {
+  
+    h3{
+      font-size: 100px;
+      color: rgb(255, 215, 251);
+    }
+    h1{
+      font-size:40px;
+    }
+    h2{
+      font-size:40px;
+    }
+    h4{
+      font-size:20px;
+    }
+    #sky{
+    height: 300px;
+    margin-left: 25%;
+    }
+    h5{
+      font-size: 150px
+    }
+    h6{
+      font-size:40px;
+    }
+    p{
+      font-size:40px
+    }
+    .flex-container{
+      height: 300px
+    }
+}
+
+
+.roboto_font {
+font-family: 'Roboto';
+color: rgb(255, 170, 52);
+}
+body {
+    background-image: url("imgs/receipt.jpg");
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+}

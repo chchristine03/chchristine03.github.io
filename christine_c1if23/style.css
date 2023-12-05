@@ -1,30 +1,66 @@
 
-body {
-    background-color: #FFDEE9;
-    background: linear-gradient(to right, #FFDEE9 0%, #c56cd0 50%, #778fff);
-    background-repeat: repeat;
-    background-size: cover;
+
+.video-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgs{
+   width:5px;
+   height:5px
 }
 
 .title{
-    font-family: "sway-variable",sans-serif;
-    font-variation-settings: 'CNST' 50, 'wght' 900;
-    font-size: 200px;
-    line-height: 1.8;
     text-align: center;
+    font-size: 50px;
+    color:white
+}
+
+
+section {
+    display:  flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:  center;
+    height:  10vh;
+    margin-top: 300px
   }
 
-.text{
-    font-family: "sway-variable",sans-serif;
-    font-variation-settings: 'CNST' 100, 'wght' 400;
-    font-size: 50px;
-    line-height: 1.8;
-    text-align: left;
-    color: rgb(255, 255, 255);
-}
-.sticky{
-    position: sticky;
-    top: 0px;
-    background-color: rgb(232, 148, 255);
-    padding: 50px;
-}
+.generalButton {
+    padding: 20px 20px;
+    border-radius: 30px;
+    background-color:  white;
+    color:  black;
+  font-family: 'tuppence', serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
+    text-align:  center;
+    transition:  all 0.5s;
+  }
+  
+  .generalButton:hover {
+    background-color: rgba(81, 217, 255, 0.594);
+    cursor:  pointer;
+  }
+  
+  .generalButtonOn {
+    background-color:  black;
+    color:  white;
+  }
+  
+
