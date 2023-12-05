@@ -43,3 +43,9 @@ button4.addEventListener("click", function(event) {
   newItem.innerHTML = "I value your perspective, tell me more.";
   wrapper4.appendChild(newItem);
 });
+
+
+    function visitPage(){
+        window.location='http://www.example.com';
+    }
+<button onclick="visitPage();">Visit page</button>

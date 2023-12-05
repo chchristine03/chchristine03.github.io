@@ -56,7 +56,6 @@ body {
     text-align: right
   }
 
-
 @media all and (max-width: 800px) {
     .title {
       font-size: 80px;
@@ -78,4 +77,15 @@ body {
         color:rgb(243, 112, 255); 
      
     }
+  }
+
+  .homepage{
+    height:20px;
+    width:150px;
+    font-size: 10px;
+    font-family: "roboto", sans-serif;
+    color: black;
+  font-weight: 700;
+  font-style: normal;
+    background-color:rgb(255, 255, 255);
   }

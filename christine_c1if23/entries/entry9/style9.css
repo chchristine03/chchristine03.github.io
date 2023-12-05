@@ -38,6 +38,19 @@ body{
     width:100vw;
 }
 
+
+.homepage{
+    height:20px;
+    width:150px;
+    font-size: 10px;
+    font-family: "roboto", sans-serif;
+    color: black;
+  font-weight: 700;
+  font-style: normal;
+    background-color:rgb(255, 255, 255);
+  }
+
+  
 @media all and (max-width: 800px) {
     body{
       font-size: 60px;
